@@ -28,5 +28,20 @@
         </div>
 
         <script src="{{ 'js/main.js' | url }}"></script>
+        <script src="https://jitesh-yadav.github.io/pi-wc/pi-wc.js"></script>
+        <script src="https://jitesh-yadav.github.io/snake-ladders-wc/snake-ladders-wc.js"></script>
+        <script>
+            function showGame1() {
+                const game1 = document.createElement("save-pi");
+                document.getElementsByClassName("game-container")[0].innerHTML = "";
+                document.getElementsByClassName("game-container")[0].appendChild(game1);
+            }
+
+            function showGame2() {
+                const game2 = document.createElement("snake-ladders");
+                document.getElementsByClassName("game-container")[0].innerHTML = "";
+                document.getElementsByClassName("game-container")[0].appendChild(game2);
+            }
+        </script>
     </body>
 </html>

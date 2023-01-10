@@ -1,8 +1,8 @@
 {
-    "name": "bootstrap-starter-kit",
-    "description": "Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.",
-    "version": "1.1.0",
-    "author": "Webpixels",
+    "name": "gaming-zone",
+    "description": "Gaming Zone",
+    "version": "1.0.0",
+    "author": "Jitesh Yadav",
     "license": "MIT",
     "scripts": {
         "start": "run-p serve:eleventy watch:parcel",
@@ -19,30 +19,6 @@
         "build:images": "parcel build src/assets/img/*",
         "clean": "rm -rf dist"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/webpixels/bootstrap-starter-kit.git"
-    },
-    "bugs": {
-        "url": "https://github.com/webpixels/bootstrap-starter-kit/issues"
-    },
-    "homepage": "https://github.com/webpixels/bootstrap-starter-kit#readme",
-    "keywords": [
-        "webpixels",
-        "eleventy",
-        "11ty",
-        "bootstrap",
-        "css",
-        "sass",
-        "js",
-        "mobile-first",
-        "responsive",
-        "front-end",
-        "web",
-        "utilities",
-        "starter",
-        "template"
-    ],
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
         "@parcel/transformer-sass": "^2.2.1",

@@ -1,12 +1,10 @@
 {
-    "name": "Bootstrap Starter Kit",
-    "description": "Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.",
+    "name": "Gaming Zone",
+    "description": "Gaming Zone",
     "url": "",
     "lang": "en",
-    "githubUrl": "https://github.com/webpixels/bootstrap-starter-kit",
-    "authorName": "Your Name",
-    "authorHandle": "@twitterhandle",
-    "authorEmail": "email@example.com",
-    "date": 2022,
-    "copyright": "2022"
+    "githubUrl": "https://github.com/jitesh-yadav/gaming-zone",
+    "authorName": "Jitesh Yadav",
+    "authorHandle": "",
+    "authorEmail": ""
 }

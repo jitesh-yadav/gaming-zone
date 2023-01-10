@@ -35,7 +35,7 @@ heading: Gaming Zone
                                 A simple game where you save PI. Built on Canvas and deployed as an independent Web Component.
                             </p>
                             <footer>
-                                <a href="https://jitesh-yadav.github.io/pi-wc/" target="gameFrame" class="font-semibold link-primary">Play -></a>
+                                <button onclick="showGame1()" class="font-semibold link-primary">Play -></button>
                                 <a href="https://github.com/jitesh-yadav/pi-wc" class="font-semibold link-primary text-right" style="float:right" target="_blank">Source Code (GitHub) -></a>
                             </footer>
                         </section>
@@ -55,7 +55,8 @@ heading: Gaming Zone
                                 A classic Snakes & Ladders game. Built on Canvas and deployed as an independent Web Component.
                             </p>
                             <footer>
-                                <a href="https://jitesh-yadav.github.io/snake-ladders-wc/" target="gameFrame" class="font-semibold link-primary">Play -></a>
+                                <button onclick="showGame2()" class="font-semibold link-primary">Play -></button>
+                                <!-- <a href="https://jitesh-yadav.github.io/snake-ladders-wc/" target="gameFrame" class="font-semibold link-primary">Play -></a> -->
                                 <a href="https://github.com/jitesh-yadav/snake-ladders-wc" class="font-semibold link-primary text-right" style="float:right" target="_blank">Source Code (GitHub) -></a>
                             </footer>
                         </section>
@@ -65,9 +66,7 @@ heading: Gaming Zone
         </div>
         <div class="row g-6 g-lg-6 mt-5">
             <div class="col-12">
-                <div class="position-relative rounded-4 shadow-4-hover bg-surface-secondary">
-                    <iframe name="gameFrame" src=""></iframe>
-                </div>
+                <div class="position-relative rounded-4 shadow-4-hover bg-surface-secondary game-container"  style="min-height:715px"></div>
             </div>
         </div>
     </div>
